@@ -17,6 +17,9 @@
   },
   "projects": {
     "app-one": { "tags": [] },
-    "app-one-e2e": { "tags": [], "implicitDependencies": ["app-one"] }
-  }
+    "app-one-e2e": { "tags": [], "implicitDependencies": ["app-one"] },
+    "app-two": { "tags": [] },
+    "app-two-e2e": { "tags": [], "implicitDependencies": ["app-two"] }
+  },
+  "workspaceLayout": { "appsDir": "projects", "libsDir": "projects/libraries" }
 }
